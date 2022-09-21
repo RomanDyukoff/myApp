@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my todo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>
+                <a href="index.html">Welcome, Roman</a>
+            </h1>
+            <div class="header__function">
+                <div class="header__img">
+                    <img src="assest/img/day-night.svg" alt="toggle">
+                </div>
+                <label class="switch">
+                    <input class="switch__input" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </header>  
+        <main class="main">
+            <section class="content">
+                <form class="form">
+                    <div class="group">
+                        <input class="group__input" type="text" name="todo" placeholder=" ">
+                        <label class="group__lable">new todo</label>
+                    </div>
+                    <div class="group__wrap">
+                        <button class="group__button button" type="submit">+</button>
+                    </div>
+                </form>
+                <h6 class="count"></h6>
+                <ul class="list"></ul>
+            </section>
+            <!-- <section class="signup">
+            </section> -->
+        </main>
+
+        <footer class="footer">kek</footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
